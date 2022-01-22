@@ -1,0 +1,53 @@
+.maincard {
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+.titletext {
+    font-size: 25px;
+    color: #000000;
+  }
+
+/* Report.vue */
+.filters-rp{
+    background-color:white; 
+    padding-top:0.6%; 
+    width:100%; 
+    height:80px; 
+    border: 1px solid rgba(147, 147, 147, 0.5);
+    border-radius:6px;
+}
+.search-rp{
+    margin-left:2%; 
+}
+.downloadbtn-rp {
+    color: #ffffff;
+    text-transform: none;
+    font-size: 15px;
+    float: right;
+    border-radius: 6px;
+  }
+.submit-rp {
+    color: #ffffff !important;
+    text-transform: none;
+    font-size: 15px;
+    margin-left: 1%;
+    border-radius: 6px;
+  }
+
+/* Reportdata.vue */
+
+.tablePhoto-rd{
+    margin-top: 6px; 
+    margin-bottom: 6px;
+}
+a.customerName-rd {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    color: #3676CB;
+    text-decoration: underline;
+  }
+a.customerName-rd:hover {
+    color: blue;
+  }

@@ -1,0 +1,217 @@
+
+/* Enrollment.vue */
+.uploadBtn-en {
+    color: #ffffff;
+    text-transform: none;
+    font-size: 15px;
+    float: right;
+    border-radius: 6px;
+  }
+.filterCard-en{
+  background-color:white; 
+  height:70px; 
+  border: 1px solid rgba(147, 147, 147, 0.5);
+  border-radius:6px;
+  width: 100%;
+}
+.searchBox-en{
+  margin-left:5%;
+}
+.dateBox-en{
+  margin-top:0.5%;
+  margin-left:5%;
+}
+.submitBtn-en {    
+  text-transform: none;
+  font-size: 15px;
+  margin-left: 15% !important;
+  border-radius: 6px;
+  color: #ffffff !important;
+}
+.dataTable-en th{
+  font-size: 15px !important;
+}
+.tablePhoto-en{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.infoLink-en{
+  color:grey !important;
+  font-size:15px;
+}
+.verticalDivider-en{
+  color:grey !important;
+  font-size:15px;
+  margin: 5%;
+}
+.activateLink-en{
+  color:#006400 !important;
+  font-size:15px;
+}
+.deactivateLink-en{
+  color:#8b0000 !important;
+  font-size:15px;
+}
+
+/* Preview.vue */
+
+.cardTitle-pr {
+  text-align: center;
+  line-height: 70px;
+  font-size: 18px;
+}
+.closeBtn-pr {
+  margin-top: 10px;
+  float: right;
+  margin-right: 35px;
+}
+.dialogcloseBtn-pr{
+  margin-top: 3px;
+  float: right;
+}
+.dialogcloseBtn-pr:hover {
+  cursor: pointer;
+}
+.accepted-pr {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid rgba(147, 147, 147, 0.5) !important;
+}
+.rejected-pr {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid rgba(147, 147, 147, 0.5) !important;
+}
+.accepted-pr th{
+  color: black;
+  font-size: 15px;
+  border-bottom: 1px solid #32bea6 !important;
+}
+.rejected-pr th{
+  color: black;
+  font-size: 15px;
+  border-bottom: 1px solid #be1e2d !important;
+}
+.completed-pr {
+  float: right;
+  margin-right: 4%;
+}
+.cancelled-pr {
+  line-height: 40px;
+  text-decoration: underline;
+  color: rgb(147, 147, 147);
+  float: right;
+  margin-right: 3%;
+  font-size: 18px;
+}
+.accepted-pr td{
+  width: 200px;
+  border: none !important;
+}
+.rejected-pr td{
+  width: 200px;
+  border: none !important;
+}
+
+/* Upload.vue */
+
+.contents-up {
+  margin: 20px;
+}
+.upIcon-up{
+  margin-top: 10%;
+}
+#dropArea-up {
+  background: rgba(72, 159, 211, 0.1);
+  text-align: center;
+  border-radius: 10px;
+  outline: 2px #489fd3;
+  outline-style: dashed;
+  margin: 30px;
+  height: 300px;
+  line-height: 50px;
+}
+#dropArea-up.highlight {
+  background: white;
+}
+.dropText-up {
+  color: #0e86d4;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+div.fileListing-up {
+  margin: 20px;
+  text-align: center;
+  line-height: 40px;
+  /* border-bottom:1px solid rgba(147, 147, 147, 0.5); */
+}
+
+div.fileListing-up img {
+  display: block;
+}
+
+.remove-up {
+  text-align: right;
+  color: red;
+  cursor: pointer;
+  margin-top: 3%;
+}
+.filetype-up {
+  border: 1px solid rgba(147, 147, 147, 0.5);
+  border-radius: 10px;
+  height: 1%;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.filename-up {
+  color: black;
+  font-size: 15px;
+  padding-right: 8%;
+  display: block;
+  margin-bottom: -0.1em;
+}
+.filesize-up {
+  color: #939393;
+  font-size: 14px;
+  padding-right: 8%;
+}
+
+.or-up {
+  font-size: 18px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+a.browseFile-up {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+a.browseFile-up:hover {
+  color: blue;
+}
+
+a.browseFile-up > input[type="file"] {
+  cursor: inherit;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+.complete-up {
+  float: right;
+  margin-right: 8%;
+}

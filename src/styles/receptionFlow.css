@@ -1,0 +1,72 @@
+.maincard {
+    margin-top: 12px;
+    margin-left: 8px;
+  }
+.titletext {
+    font-size: 26px;
+    color: #000000;
+  }
+
+  /* Reception.vue */
+
+.tablePhoto-re{
+    margin-top: 6px !important; 
+    margin-bottom: 6px !important;
+}
+
+/* Dialogbox.vue */
+
+.or-di{
+    font-size: 16px !important;
+}
+
+.confidence-di{
+    font-size: 12px !important;
+}
+.noneOfAbove-di{
+    text-decoration: underline; 
+    font-size: 13px !important;
+}
+.selectionPhoto-di{
+    margin-left:25%;
+    margin-right: 20%;
+}
+.selectionInfo-di{
+    margin-left:4%;
+}
+.pencil-di{
+    padding-bottom:80%;
+}
+.question-di{
+    font-size: 20px !important;
+}
+.ranks-di:hover {
+    border: solid white;
+    border-width: 5px;
+    cursor: pointer;
+  }
+
+  /* Editbox.vue */
+.selectionPhoto-ed{
+    margin-left:6%;
+    margin-right: 20%;
+}
+.pencil-ed{
+    padding-bottom:80%;
+}
+.infohead-ed{
+    font-weight: 500; 
+    color:#4B4B4B;
+    font-size: 0.4cm !important;
+}
+.infobody-ed{
+    
+    font-size: 0.45cm;
+}
+.infoname-ed{
+    margin-right: 10px !important;
+    margin-left: 15px !important;
+}
+.saveBtn-ed{
+    color: #ffffff !important;
+}
